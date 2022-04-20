@@ -4,9 +4,14 @@
 }
 
 canvas {
+	cursor: grab;
 	background-color: #f3f3f3;
 	position: fixed;
 	top: 0;
 	left: 0;
 	z-index: -10;
+}
+
+canvas:active {
+	cursor: grabbing;
 }
